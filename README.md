@@ -13,3 +13,19 @@ Here is a 20x20 maze that was also generated using the program:
 
 ![alt text](https://github.com/qnaz99/R3TrainingMilestone1/blob/main/20x20.png?raw=true)
 
+
+
+# R3TrainingMilestone2
+
+Milestone 2 was completed on December 1st. It takes the solution code for milestone 1 that was provided to us and converts the solution array into strings that indicate which direction the robot should move. For example: 
+
+"[0][255][255][0]" would indicate a right turn;
+"[255][0][0][255]" would indicate a left turn; and
+"[0][255][0][255]" would indicate moving forward
+
+These strings are then transfered to a remote client (presumably a robot) via TCP.
+The code to parse the solution array and transmit the strings is appended to the maze.py file provided. The code to receive the strings is in receive.py. 
+
+Here is a screenshot of the receive.py program running in Windows Powershell while the maze.py program transmits the strings: 
+
+![alt text](https://github.com/qnaz99/R3TrainingMilestone1/blob/main/prompt?raw=true)
