@@ -28,4 +28,4 @@ The code to parse the solution array and transmit the strings is appended to the
 
 Here is a screenshot of the receive.py program running in Windows Powershell while the maze.py program transmits the strings: 
 
-![alt text](https://github.com/qnaz99/R3TrainingMilestone1/blob/main/prompt.png?raw=true)
+![alt text](https://github.com/qnaz99/R3TrainingMilestone1/blob/main/power.png?raw=true)
